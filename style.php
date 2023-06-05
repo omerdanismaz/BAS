@@ -6,17 +6,18 @@
     '
         <head>
             <style>
-                .bas_alert
-                {
-                    position: fixed;
-                    padding: 1vh;
-                    width: 100vh;
-                    height: auto;
-                    margin-left: 50vh;
-                    user-select: none;
-                    border-radius: '.$cfg_alert_border_radius.';
-                    animation: fade_out '.$cfg_alert_fade_out_seconds.' forwards;
-                }
+            .bas_alert {
+                position: fixed;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                padding: 1vh;
+                width: 100vh;
+                height: auto;
+                user-select: none;
+                top: '.$cfg_alert_margin_top.';
+                border-radius: '.$cfg_alert_border_radius.';
+                animation: fade_out '.$cfg_alert_fade_out_seconds.' forwards;
+            }
 
                 @keyframes fade_out
                 {

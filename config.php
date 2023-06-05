@@ -57,6 +57,8 @@
         $cfg_logout_successful_message = "Logout successful. Redirecting.";
 
     // Alert Messages Style Configuration
+    $cfg_alert_margin_top = "5vh";
+
     $cfg_alert_message_font_color = "#FFFFFF";
     $cfg_alert_message_font_family = "Arial";
 
