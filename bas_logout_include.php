@@ -2,8 +2,8 @@
 
     @session_start();
 
-    include "config.php";
-    include "functions.php";
+    include "bas_config.php";
+    include "bas_functions.php";
 
     // If the user is not logged in, it redirects to the configured page.
     if (!isset($_SESSION["user_id"]))

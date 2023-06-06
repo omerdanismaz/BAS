@@ -1,6 +1,6 @@
 <?php
 
-    include 'style.php';
+    include 'bas_style.php';
 
     // It checks that the variable is within the minimum and maximum length limits.
     function BAS_checkLength($var, $min_length, $max_length)

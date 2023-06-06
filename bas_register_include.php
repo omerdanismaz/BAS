@@ -2,9 +2,9 @@
 
     session_start();
 
-    include "config.php";
-    include "functions.php";
-    include "connection.php";
+    include "bas_config.php";
+    include "bas_functions.php";
+    include "bas_connection.php";
 
     // If the user is already logged in, it redirects to the configured page.
     if (isset($_SESSION["user_id"]))
