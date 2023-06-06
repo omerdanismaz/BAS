@@ -1,4 +1,4 @@
-# BAS - Basic Authentication System (5-Step Setup)
+# BAS - Basic Authentication System (Setup)
 
 🟢 Upload the BAS folder to the ROOT location of the website.
 
@@ -13,6 +13,9 @@
 
 
 🟢 Link the "bas_logout_include.php" file to the logout button.
+
+
+🟢 Create "bas_users" database table. (The table can be created using the "create_table.sql" file located in the "BAS/SQL" folder.)
 
 #
 
